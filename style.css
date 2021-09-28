@@ -97,7 +97,7 @@ button{
   }
   .button-header{
       background-color: hsl(322, 100%, 66%);
-      width:60%;
+      width:70%;
       max-width:280px;
       height: 3.5rem;
       margin:20px  0;
@@ -387,7 +387,7 @@ button{
     height: 100%;
 }
 
-}
+
 
 
 
@@ -399,6 +399,9 @@ button{
      
  }
  .cta{
+    max-width: 1900px;
+    margin:0 auto;
+
      display: grid;
      grid-template-columns: repeat(4,1fr);
      grid-template-rows: max-content 1fr;
@@ -419,12 +422,10 @@ button{
     grid-row: 2/3;
 }
 
-.cta{
-    max-width: 1900px;
-    margin:0 auto;
-}
+
+    
 
 .footer{
     text-align:right;
 }
-
+}
